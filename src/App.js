@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router';
+import ScrollToElement from './component/common/ScrollTo/ScrollTo';
+import Header from './component/Header/Header';
+import AboutLaser from './component/Content/AboutLaser/AboutLaser';
+import Contacts from './component/Content/Contacts/Contacts';
+import Basement from './component/Basement/Basement';
+import ExamplesWorks from './component/Content/ExamplesWorks/ExamplesWorks';
 
 function App() {
+
+  const { pathname } = useLocation; //получаем url страницы
+
+  useEffect(() => {
+    ScrollToElement(); //при изменении url скролим к якорю с определенной скоростью
+  }, [pathname])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+        <div className="Element" id='aboutLaser' >
+          <AboutLaser />
+        </div>
+        <div className="Element" id='examples'>
+          <ExamplesWorks  />
+        </div>
+        <div className="Element" id='contacts'>
+          <Contacts  />
+        </div>
+      <Basement />
     </div>
   );
 }
