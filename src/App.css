@@ -1,7 +1,18 @@
-.App{
+.App {
   height: 100%;
+
+  z-index: 1;
+
+  background-image: url('./assets/img/cover-for-main.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-attachment: fixed;
+  background-size: 100vw 85vh;
 }
 
-.Element{
-  height: 600px;
+.Element {
+  z-index: 1000;
+
+  background-color: white;
+  height: 100%;
 }

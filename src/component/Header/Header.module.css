@@ -1,8 +1,11 @@
 .main{
     height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
     background-color: white;
-    box-shadow: 0 10px 30px rgb(4 48 100 / 15%);
+    box-shadow: 0 10px 30px rgb(4 36 60 / 10%);
 
     display: grid;
     align-items: center;

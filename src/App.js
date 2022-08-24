@@ -7,6 +7,7 @@ import AboutLaser from './component/Content/AboutLaser/AboutLaser';
 import Contacts from './component/Content/Contacts/Contacts';
 import Basement from './component/Basement/Basement';
 import ExamplesWorks from './component/Content/ExamplesWorks/ExamplesWorks';
+import CoverImage from './component/Content/CoverImage/CoverImage';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+        <CoverImage />
         <div className="Element" id='aboutLaser' >
           <AboutLaser />
         </div>

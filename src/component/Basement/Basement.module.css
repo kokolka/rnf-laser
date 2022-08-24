@@ -1,3 +1,28 @@
 .main{
     color: white;
 }
+
+.main__void{
+    height: 20px;
+    background-color: rgb(192, 202, 212);
+}
+
+.main__univer{
+    color: black;
+}
+
+.main__dev{
+    border-top: 1px solid rgb(217, 224, 232);
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dev__whoDev{
+    font-size: 12px;
+    padding: 1px 20px 1px 0;
+
+    height: 20px;
+    color: rgb(105, 140, 184);
+}
