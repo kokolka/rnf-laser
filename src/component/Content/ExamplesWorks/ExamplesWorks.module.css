@@ -25,6 +25,9 @@
     justify-content: space-evenly;
     align-items: flex-start;
 }
+.content__info_revers{
+    flex-direction: row-reverse;
+}
 
 .info__img{
     

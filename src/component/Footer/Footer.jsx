@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './Basement.module.css';
+import s from './Footer.module.css';
 
-const Basement = () => {
+const Footer = () => {
     return (
         <div className={s.main}>
             <div className={s.main__void}>
@@ -19,4 +19,4 @@ const Basement = () => {
     )
 }
 
-export default Basement;
+export default Footer;

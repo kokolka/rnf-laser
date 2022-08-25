@@ -5,7 +5,7 @@ import ScrollToElement from './component/common/ScrollTo/ScrollTo';
 import Header from './component/Header/Header';
 import AboutLaser from './component/Content/AboutLaser/AboutLaser';
 import Contacts from './component/Content/Contacts/Contacts';
-import Basement from './component/Basement/Basement';
+import Footer from './component/Footer/Footer';
 import ExamplesWorks from './component/Content/ExamplesWorks/ExamplesWorks';
 import CoverImage from './component/Content/CoverImage/CoverImage';
 
@@ -30,7 +30,7 @@ function App() {
         <div className="Element" id='contacts'>
           <Contacts  />
         </div>
-      <Basement />
+      <Footer />
     </div>
   );
 }
