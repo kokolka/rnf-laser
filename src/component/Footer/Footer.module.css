@@ -8,11 +8,14 @@
 }
 
 .main__univer{
+    background-color: rgb(192, 202, 212);
     color: black;
 }
 
 .main__dev{
-    border-top: 1px solid rgb(217, 224, 232);
+    background-color: rgb(192, 202, 212);
+
+    /* border-top: 1px solid rgb(217, 224, 232); */
     height: 100%;
 
     display: flex;

@@ -1,6 +1,4 @@
 .main{
-    
-
     padding-top: 40px;
 }
 
@@ -29,10 +27,10 @@
 }
 
 .info__img{
-    
+    min-width: 560px;
 }
 .info__img img{
-    width: 40vw;
+    max-width: 100%;
 }
 
 .info__text{
