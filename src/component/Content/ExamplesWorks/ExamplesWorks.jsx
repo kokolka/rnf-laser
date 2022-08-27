@@ -1,10 +1,10 @@
 import React from 'react';
-import s from './ExamplesWorks.module.css';
+import s from '../AboutLaser/AboutLaser.module.css';
 
 const ExamplesWorks = () =>{
     return(
         <div className={s.main}>
-            <div className={s.main__content}>
+            <div className={`${s.main__content} ${s.main__content_bcolor}`}>
                 <div className={s.content__name}>
                     Примеры визуализации
                 </div>

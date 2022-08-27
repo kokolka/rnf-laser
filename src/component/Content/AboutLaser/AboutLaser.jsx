@@ -4,7 +4,7 @@ import s from './AboutLaser.module.css';
 const AboutLaser = () => {
     return (
         <div className={s.main}>
-            <div className={s.main__content}>
+            <div className={`${s.main__content} ${s.main__content_shadow}`}>
                 <div className={s.content__name}>
                     О лазере
                 </div>
