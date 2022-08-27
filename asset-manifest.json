@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rnf-laser/static/css/main.318e47ba.css",
-    "main.js": "/rnf-laser/static/js/main.2325add7.js",
+    "main.css": "/rnf-laser/static/css/main.696badfe.css",
+    "main.js": "/rnf-laser/static/js/main.b144dc31.js",
     "static/js/787.7aaa4625.chunk.js": "/rnf-laser/static/js/787.7aaa4625.chunk.js",
     "index.html": "/rnf-laser/index.html",
-    "main.318e47ba.css.map": "/rnf-laser/static/css/main.318e47ba.css.map",
-    "main.2325add7.js.map": "/rnf-laser/static/js/main.2325add7.js.map",
+    "main.696badfe.css.map": "/rnf-laser/static/css/main.696badfe.css.map",
+    "main.b144dc31.js.map": "/rnf-laser/static/js/main.b144dc31.js.map",
     "787.7aaa4625.chunk.js.map": "/rnf-laser/static/js/787.7aaa4625.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.318e47ba.css",
-    "static/js/main.2325add7.js"
+    "static/css/main.696badfe.css",
+    "static/js/main.b144dc31.js"
   ]
 }
